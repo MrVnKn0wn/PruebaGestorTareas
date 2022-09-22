@@ -1,0 +1,95 @@
+
+body{
+    background-color: bisque;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    border-bottom: solid;
+    background-color: peru;
+    border-top: solid;
+}
+
+#NuevaTarea{
+    text-align: center;
+}
+
+#crearTarea{
+    margin-right: 15%;
+    margin-left: 15%;
+    border: 2px black dotted;
+    border-radius: 85px;
+    background-color: tan;
+}
+
+#inpTarea{
+    font-size: large;
+    text-align: center;
+}
+
+#categoriasBox{
+    display: inline-flex;
+    font-size: larger;
+}
+
+#botonAñadir{
+    margin-left: 12%;
+    font-size: large;
+}
+
+button:hover{
+    color:white;
+    background-color:slateblue;
+}
+
+#TodasTareas{
+    margin-top: 3%;
+}
+
+#padretablaTareas{
+    font-variant: all-small-caps;
+}
+
+#tablaTareas{
+    border-radius: 10px;
+    border: 1px black solid;
+    margin: 0 auto;
+}
+
+#tablaTareas td, #tablaTareas th{
+    border: 1px black solid;
+}
+
+#tablaTareas th{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 40px;
+    background-color: peru;
+}
+
+#THTarea{
+    padding-left: 120px!important;
+    padding-right: 120px!important;
+}
+
+#tablaTareas td{
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    padding: 3px;
+    background-color: burlywood;
+}
+
+h3{
+    font-size: 25px;
+}
+
+td button{
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: indianred;
+}
